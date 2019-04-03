@@ -1,0 +1,111 @@
+body, html {
+  margin: 0;
+  background-color: #6D9DC5;
+  font-family: 'Inconsolata', monospace;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 75px;
+  display: flex;
+  background: linear-gradient(135deg, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 31%, rgba(32, 124, 202, 1) 69%, rgba(125, 185, 232, 1) 100%);
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  height: 121px;
+  width: 238px;
+}
+
+nav .buttons {
+  flex: 0.5;
+  margin-top: 35px;
+}
+
+button {
+  width: 125px;
+  height: 25px;
+  background-color: rgb(29, 27, 134);
+  border: 1px solid black;
+  box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}
+
+.container {
+  position: relative;
+  top: 80px;
+}
+
+.question {
+  background: linear-gradient(to bottom, rgb(254, 255, 255) 0%, rgb(221, 241, 249) 35%, rgb(160, 216, 239) 100%);
+  width: 650px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.answer {
+  display: flex;
+  background: linear-gradient(to bottom, rgb(254, 255, 255) 0%, rgb(221, 241, 249) 35%, rgb(160, 216, 239) 100%);
+  width: 455px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 70px;
+  padding: 10px;
+  border-radius: 15PX;
+  box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.paraone {
+  flex: 50%;
+  position: relative;
+  top: 12px;
+}
+
+.paratwo {
+  position: relative;
+  top: 12px;
+  flex: 40%;
+}
+
+.two button {
+  margin: 142px 0 1px 590px;
+  width: 125px;
+  height: 25px;
+  background-color: rgb(29, 27, 134);
+  border: 1px solid black;
+  box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  display: flex;
+  position: relative;
+  top: 120px;
+  height: 20%;
+  width: 100%;
+  background-color: blue;
+}
+
+.copyright {
+  flex: 1;
+}
+
+.footerlogo img {
+  flex: 1;
+  height: 150px;
+}
+
+.social {
+  flex: 1;
+}
