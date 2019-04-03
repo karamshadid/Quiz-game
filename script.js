@@ -1,62 +1,62 @@
 var questions = [
 {
   prompt: 'How long is the Great Wall of China?\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
-  answer: '(c)';
+  answer: '(a)';
 },
 {
-  prompt: '',
+  prompt: 'What is the largest number of five digits?\n (a) 888888 \n (b) 999999 \n (c) 99999'',
+  answer: '(c)',
+},
+{
+  prompt: 'What colour to do you get when you mix red and white?\n (a) brown \n (b) grey \n (c) violet',
+  answer: '(b)',
+},
+{
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles,
   answer: '',
 },
 {
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 {
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 {
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 {
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 {
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 {
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 {
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 {
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 {
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 {
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 {
-  prompt: '',
-  answer: '',
-},
-{
-  prompt: '',
-  answer: '',
-},
-{
-  prompt: '',
+  prompt: '\n (a) 4000 miles \n (b) 3500 miles \n (c) 2000 miles',
   answer: '',
 },
 ]
