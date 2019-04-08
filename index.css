@@ -1,7 +1,7 @@
 body, html {
   margin: 0;
   background-color: #6D9DC5;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Mukta', sans-serif;
   height: 100%;
   box-sizing: border-box;
 }
@@ -14,11 +14,14 @@ nav {
 
 .logo {
   flex: 1;
+  margin: -30px;
+  margin-left: 0;
 }
 
 .logo img {
-  height: 121px;
-  width: 238px;
+  height: 150px;
+  width: 150px;
+  ;
 }
 
 nav .buttons {
@@ -38,7 +41,7 @@ a {
   font-size: 12px;
   text-decoration: none;
   color: white;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Mukta', sans-serif;
 }
 
 .container {
@@ -79,7 +82,7 @@ a {
   flex: 40%;
 }
 
-.two button {
+.two {
   margin: 142px 0 1px 590px;
   width: 125px;
   height: 25px;
@@ -89,23 +92,29 @@ a {
 }
 
 footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 40% 42% 17%;
   position: relative;
   top: 120px;
-  height: 20%;
-  width: 100%;
   background-color: blue;
 }
 
 .copyright {
-  flex: 1;
+  font-size: 30px;
+}
+
+.copyright p {
+  padding: 10px;
 }
 
 .footerlogo img {
-  flex: 1;
   height: 150px;
 }
 
-.social {
-  flex: 1;
+.social {}
+
+.social i {
+  display: block;
+  padding: 5px;
+  margin-top: 10px
 }
