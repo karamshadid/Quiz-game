@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   <title>Optimistic</title>
+  <script src="Quiz.json">
+
+  </script>
 </head>
 
 <body>
@@ -17,8 +20,8 @@
         <img src="OPTIMISTICLOGO.svg" alt="logo">
       </div>
       <div class="buttons">
-        <button type="button" name="button"> <a href="#">settings</a></button>
-        <button type="button" name="button"><a href="#">test</a></button>
+        <button type="button" name="button" onclick="mySettings()"> <a href="#">settings</a></button>
+        <button type="button" name="button" onclick="myTest()"><a href="#">test</a></button>
       </div>
 
     </nav>
@@ -32,8 +35,8 @@
       <div class="question">
         <h2>Qestion</h2>
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
       </div>
 
       <div class="answer">
@@ -55,7 +58,7 @@
 
       </div>
       <div class="next">
-        <button type="button" name="button"> <a href="#">Next</a> </button>
+        <button type="button" name="button" onclick="nextQuestion()"> <a href="#">Next</a> </button>
       </div>
 
     </div>
@@ -75,16 +78,18 @@
 
 
     <div class="social">
-      <i class="fab fa-facebook-square"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-linkedin"></i>
+      <a href="#"> <i class="fab fa-facebook-square"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"> <i class="fab fa-linkedin"></i></a>
 
 
     </div>
 
   </footer>
 
+  <script src="Quiz.js">
 
+  </script>
 
 </body>
 
